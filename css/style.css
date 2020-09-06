@@ -4,11 +4,12 @@
 
 }
 body{
-	height: auto;
+	
 	background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)),url('https://wallpapercave.com/wp/wp4983865.jpg')  ;
 	background-repeat: no-repeat;
-	background-position: no-repeat;
+	background-position: center center;
 	background-size: cover;
+	background-attachment: fixed;
 	
 	
 	

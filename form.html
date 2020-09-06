@@ -1,0 +1,91 @@
+<html>
+<head>
+	<title>Registration Form</title>
+</head>
+<style >
+body{
+	background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)),url('https://wallpapercave.com/wp/wp4983865.jpg')  ;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+	color: white;
+}
+</style>
+<body>
+	<br>
+	<br>
+	<br>
+
+<center><h1><u>Enter your Details</u></h1></center>
+<br>
+<br>
+<br>
+<form id="Contact" name="f1" method="POST">
+<table align="center" width="30%">
+<tr>
+<td>Name</td>
+<td></td>
+<td><input type="text" name="Name" required></td>
+</tr>
+<tr>
+<td>
+Address </td>
+<td></td>
+<td><textarea name="address" required></textarea></td>
+</tr>
+
+<tr>
+<td>
+DOB </td>
+<td></td>
+<td><input type="date" name="DOB"></td>
+</tr>
+
+<tr>
+<td>Phone Number</td>
+<td></td>
+<td><input type="text" name="Phone" pattern="[0-9]{10}" required></td>
+</tr>
+<tr>
+<td>
+Email Id </td>
+<td></td>
+<td><input type="email" name="Email" required></td>
+</tr>
+<tr>
+<td>
+Password</td>
+<td></td>
+<td><input type="password" name="password" required></td>
+</tr>
+<tr>
+<td>
+Gender </td>
+<td></td>
+<td>
+Male <input type="radio" name="gender" value="Male" required>&nbsp;&nbsp;Female <input type="radio" name="gender" value="Female">
+</td>
+</tr>
+<tr>
+<td>
+Country </td>
+<td></td>
+<td>
+ <select name="City">
+		<option> Guwahati </option>
+		<option> Nagaon</option>
+		<option> Mangaldai </option>
+		<option> Tezpur </option>
+	</select>
+</td>
+</tr>
+<tr><td colspan="3" align="center">
+<input type="submit" value="SEND">
+</td>
+</tr>
+</table>
+</form>
+
+</body>
+</html>
